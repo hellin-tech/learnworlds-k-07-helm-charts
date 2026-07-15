@@ -1,0 +1,22 @@
+replicaCount: 5
+
+config:
+  logLevel: warn
+  databaseHost: prod-db-postgresql
+
+ingress:
+  enabled: true
+  hostname: api.novatech.de
+
+autoscaling:
+  enabled: true
+  minReplicas: 5
+  maxReplicas: 20
+
+resources:
+  requests:
+    cpu: 500m
+    memory: 512Mi
+  limits:
+    cpu: 2000m
+    memory: 1Gi

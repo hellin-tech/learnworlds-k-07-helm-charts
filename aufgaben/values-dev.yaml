@@ -1,0 +1,5 @@
+# TODO: Dev-spezifische Overrides
+replicaCount: 1
+config:
+  logLevel: debug
+  databaseHost: novatech-db-postgresql

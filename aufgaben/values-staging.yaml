@@ -1,0 +1,8 @@
+# TODO: Staging-spezifische Overrides
+replicaCount: 2
+config:
+  logLevel: info
+  databaseHost: staging-db-postgresql
+ingress:
+  enabled: true
+  hostname: api-staging.novatech.de
