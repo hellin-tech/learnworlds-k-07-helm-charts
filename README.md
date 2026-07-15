@@ -10,8 +10,21 @@ Tom sitzt vor 43 YAML-Dateien. Markus (der Neue) soll die IoT-Plattform im Test-
 - Values-Dateien für Umgebungstrennung nutzen
 
 ## Voraussetzungen
-- minikube Cluster läuft
-- Helm installiert ([helm.sh/docs/intro/install](https://helm.sh/docs/intro/install/))
+
+- GitHub-Konto
+- Zugriff auf GitHub Codespaces
+- Grundlegende Kenntnisse im Umgang mit dem Terminal
+
+Docker, kubectl, minikube und Helm werden automatisch
+in der Cloud-Entwicklungsumgebung bereitgestellt.
+Eine lokale Installation ist nicht notwendig.
+
+### Entwicklungsumgebung starten
+
+1. Öffne das Repository auf GitHub
+2. Klicke auf **Code** → **Codespaces** → **Create codespace on main**
+3. Die Entwicklungsumgebung wird automatisch vorbereitet. Der erste Start und das Einrichten des Kubernetes-Clusters können einige Minuten dauern.
+
 
 ## Aufgaben
 
